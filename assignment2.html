@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+
+
+</head>
+
+<style>
+	
+	.textarea{
+		      width: 200px;
+		      height: 150px;
+	}
+
+</style>
+
+<body>
+
+	<caption>Contact Me</caption>
+
+	<h4>HTML Form </h4>
+
+	<fieldset>
+		
+		<legend>Personal Information</legend>
+
+		<label for="lastname">Last Name:</label>
+		<input type="text" placeholder="enter your name"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" placeholder="your secret"><br><br>
+
+		<label for="phone">Phone:</label>
+		<input type="text" placeholder="5555555555"><br><br>
+
+		<label for="favorite">Favorite Decade:</label>
+		<input type="number" min="1990" max="2050" step=10><br><br>
+
+		<label for="favorite">Favorite Coffee:</label>
+		<select>
+			<optgroup label="cofee">
+			<option>cofee</option>
+			<option>tea</option>
+			<option>water</option>
+			</optgroup>
+			<optgroup label="Express">
+				<option>water</option>
+				<option>water</option>
+				<option>water</option>
+			</optgroup>
+		</select>
+		
+
+	</fieldset>
+
+     <br><br>
+
+
+	<fieldset>
+		
+		<legend>What is Your Favroite Food</legend>
+
+		<input type="radio" name="Tacos"> Tacos
+		<br><br>
+		<input type="radio" name="Tacos"> Pizza
+		<br><br>
+		<input type="radio" name="Tacos"> Other
+
+	</fieldset>
+
+	<br><br>
+
+	<fieldset>
+		
+		<legend>Do You have Pets</legend>
+
+		<input type="checkbox">Dog
+		<br><br>
+		<input type="checkbox">Cat
+		<br><br>
+		<input type="checkbox">Fish
+		<br><br>
+		<input type="checkbox">Other
+		<br><br>
+		
+
+	</fieldset>
+
+	<br><br>
+
+	<fieldset>
+		
+		<legend>Send Me a Note</legend>
+
+		<textarea class="textarea" placeholder="Type your message here"></textarea>
+
+	</fieldset>
+
+	<br></br>
+
+	<input type="submit" value="submit">
+	<input type="submit" value="post">
+	<input type="submit" value="reset">
+
+</body>
+</html>
